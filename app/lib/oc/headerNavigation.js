@@ -12,7 +12,7 @@ function headernavigation() {
 
     function template() {
         return [
-            '<section class="header-navigation navbar-fixed-top">',
+            '<section class="header-navigation">',
             '<div class="row">',
             '<div class="col-xs-12 col-sm-6 pull-right">',
             '<ul>',

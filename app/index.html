@@ -38,7 +38,8 @@
     <section ng-hide="Four51User.isAuthenticated() || isAnon" class="container">
         <login />
     </section>
-
+    <div style="padding-left: 10%; padding-right: 10%; background-color:#D0D0CE;">
+    <div style="width=100%; background-color: #fff;">
     <section ng-if="Four51User.isAuthenticated()" id="content">
 
         <section class="hidden-print visible-xs visible-sm">
@@ -53,7 +54,7 @@
             <navigation />
         </section>
 
-        <section class="search-bar hidden-print hidden-xs">
+        <section class="search-bar hidden-print hidden-xs hidden-sm">
             <header class="header navbar navbar-inner">
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="container">
@@ -83,6 +84,7 @@
         </section>-->
 
     </section>
+    </div></div>
 </section>
 
 <!--<script type="text/javascript" src="//dl1d2m8ri9v3j.cloudfront.net/releases/1.2.4/tracker.js" data-customer="bfec7bded14d43a7ace2697594e1369d"></script>-->

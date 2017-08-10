@@ -261,6 +261,15 @@ input, button, select, textarea {
     background-color: #b70b82;
 }
 
+.btn-danger {
+	
+	background-color: #cf0b93;
+	border: none;
+	}
+
+.btn-danger:hover {
+	background-color: #b70b82;
+	}
 
 .jumbotron {
     margin:15px;
