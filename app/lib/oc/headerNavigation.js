@@ -17,6 +17,7 @@ function headernavigation() {
             '<div class="col-xs-12 col-sm-6 pull-right">',
             '<ul>',
             '<li><a href="contactus">Contact Us</a></li>',
+			'<li><a href="order">Orders</a></li>',
             '<li><a href="admin">Account</a></li>',
             '<li><a href="cart">Cart&nbsp;',
             '<span ng-if="currentOrder.LineItems.length" ng-bind="cartCount" class="badge"></span>',
