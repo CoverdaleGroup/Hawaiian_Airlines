@@ -1,32 +1,30 @@
-/*do not make changes to this file. It will be overwritten by the css editor. Put theme changes in custom.css*/
-
-.container .navbar-nav li.active a:hover  {background-color: #eb;}
-.container .navbar-nav li.active a:focus  {background-color: #eb;}
-.navbar-default .navbar-nav .open > a  {background-color: #eb;}
-.navbar-default .navbar-nav .open > a:hover  {background-color: #eb;}
-.navbar-default .navbar-nav .open > a:focus  {background-color: #eb;}
-.navbar-nav li.dropdown li > a:hover  {background-color: #eb;}
-.navbar-nav li.dropdown li > a:focus  {background-color: #eb;}
-.navbar .container .navbar-nav li.active .fa-caret-down  {color: #eb;}
+.container .navbar-nav li.active a:hover  {background-color: #0;}
+.container .navbar-nav li.active a:focus  {background-color: #0;}
+.navbar-default .navbar-nav .open > a  {background-color: #0;}
+.navbar-default .navbar-nav .open > a:hover  {background-color: #0;}
+.navbar-default .navbar-nav .open > a:focus  {background-color: #0;}
+.navbar-nav li.dropdown li > a:hover  {background-color: #0;}
+.navbar-nav li.dropdown li > a:focus  {background-color: #0;}
+.navbar .container .navbar-nav li.active .fa-caret-down  {color: #0;}
 .navbar-nav li.dropdown li > a  {color: #333333;}
-.navbar-nav li.dropdown li > a:hover  {color: #000000;}
-.navbar .container .navbar-nav.pull-right li a i:first-of-type  {border-color: #000000;}
+.navbar-nav li.dropdown li > a:hover  {color: undefined;}
+.navbar .container .navbar-nav.pull-right li a i:first-of-type  {border-color: undefined;}
 .badge  {background-color: undefined;}
-.badge  {color: #FFFFFF;}
-.navbar-default  {background-color: #d2d3d5;}
-.container .navbar-nav li a  {color: #000000;}
-.container .navbar-nav li.active > a  {background-color: #eb;}
+.badge  {color: undefined;}
+.navbar-default  {background-color: #;}
+.container .navbar-nav li a  {color: undefined;}
+.container .navbar-nav li.active > a  {background-color: #0;}
 .container .navbar-nav li.active > a  {color: undefined;}
-.navbar-default, .dropdown-mega  {border-color: #F0F0F0;}
-body  {background-color: #FFFFFF;}
+.navbar-default, .dropdown-mega  {border-color: #FFFFFF;}
+body  {background-color: #F0F0F0;}
 body  {color: #333333;}
 .text-primary  {color: #0C2A3A;}
-.text-info  {color: #0877a7;}
-body a  {color: #0C2A3A;}
-.btn-primary  {background-color: #0C2A3A;}
+.text-info  {color: #0f0f0f;}
+body a  {color: #000203;}
+.btn-primary  {background-color: #4a2c88;}
 .btn-primary, .btn-primary:hover  {color: #FFFFFF;}
-.btn-primary  {border-color: #081B24;}
-.btn-primary:hover  {background-color: #051118;}
+.btn-primary  {border-color: #3b1d79;}
+.btn-primary:hover  {background-color: #361874;}
 .btn-default  {background-color: #FFFFFF;}
 .btn-default, .btn-default:hover  {color: #333333;}
 .btn-default  {border-color: #CCCCCC;}
@@ -35,21 +33,21 @@ body a  {color: #0C2A3A;}
 .btn-info, .btn-info:hover  {color: #FFFFFF;}
 .btn-info  {border-color: #46B8DA;}
 .btn-info:hover  {background-color: #39B3D7;}
-.btn-success  {background-color: #5CB85C;}
+.btn-success  {background-color: #c80c88;}
 .btn-success, .btn-success:hover  {color: #FFFFFF;}
-.btn-success  {border-color: #4CAE4C;}
-.btn-success:hover  {background-color: #47A447;}
-.btn-warning  {background-color: #f0ad4e;}
-.btn-warning, .btn-warning:hover  {color: #FFFFFF;}
-.btn-warning  {border-color: #EEA236;}
-.btn-warning:hover  {background-color: #ED9C28;}
-.btn-danger  {background-color: #D9534F;}
-.btn-danger, .btn-danger:hover  {color: #FFFFFF;}
-.btn-danger  {border-color: #D43F3A;}
-.btn-danger:hover  {background-color: #D2322D;}
+.btn-success  {border-color: #b90079;}
+.btn-success:hover  {background-color: #b40074;}
+.btn-warning  {background-color: #00a5ba;}
+.btn-warning, .btn-warning:hover  {color: #000000;}
+.btn-warning  {border-color: #96ab;}
+.btn-warning:hover  {background-color: #91a6;}
+.btn-danger  {background-color: #b1b3b3;}
+.btn-danger, .btn-danger:hover  {color: #000000;}
+.btn-danger  {border-color: #a2a4a4;}
+.btn-danger:hover  {background-color: #9d9f9f;}
 .jumbotron  {background-color: #FFFFFF;}
 h2 .jumbotron  {color: #333333;}
-.panel-primary .panel-heading .panel-title  {background-color: #0C2A3A;}
+.panel-primary .panel-heading .panel-title  {background-color: #4a2c88;}
 .panel-primary .panel-heading .panel-title  {color: #FFFFFF;}
 .panel-default .panel-heading .panel-title  {background-color: #F5F5F5;}
 .panel-default .panel-heading .panel-title  {color: #333333;}

@@ -75,7 +75,18 @@ four51.app.directive('ordershipping', ['Order', 'Shipper', 'Address', 'AddressLi
 						exists = true;
 				});
 				if (!exists) {
-					Order.clearshipping($scope.currentOrder);
+
+                    var shipper = false;
+                    angular.forEach($scope.shippers,function(el){
+                    
+                    	if(el.Name.toLowerCase().indexOf("fedex - 2") >= 0) shipper = el.Name;
+                    
+                    });
+                    if(shipper){
+                        $scope.currentOrder.LineItems[0].ShipperName = shipper;
+                        $scope.updateShipper();
+                    }
+					else Order.clearshipping($scope.currentOrder);
 				}
 			});
 
